@@ -14,5 +14,8 @@ attr_accessor :name
       puts "#{i.name}"
     end
   end
+  
+  def self.clear_all
+    
 
 end
