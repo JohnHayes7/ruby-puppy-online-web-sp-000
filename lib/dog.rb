@@ -10,7 +10,9 @@ attr_accessor :name
   end
   
   def self.all
-    @@all
+    @@all.each do |i|
+      puts "#{i.name}"
+    end
   end
 
 end
